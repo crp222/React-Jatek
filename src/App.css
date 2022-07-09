@@ -1,0 +1,62 @@
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+
+  justify-content: center;
+
+  gap: 0.1em;
+
+  font-size: 300%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.1em;
+}
+
+.pos {
+  transition: 0.5s;
+}
+
+.hidden {
+  backface-visibility: hidden;
+  transition: 0.5s;
+  transform: rotateY(180deg);
+}
+
+.outer {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.377);
+  transform: rotateY(180deg);
+  transition: 0.5s;
+}
+
+.pos div {
+  color: transparent;
+
+  transition: 0.5s;
+  padding: 0.5em;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
